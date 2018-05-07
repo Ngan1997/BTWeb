@@ -1,0 +1,298 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.backgroud{
+  background-image: url(hinh/backgroud.PNG);
+  width: 100%;
+  height: 2500px;
+  margin: auto;
+}
+.content{
+  width: 1200px;
+  height: 100%;
+  background-color: white;
+  margin: auto;
+}
+.top-line{
+  width: 1200px;
+  height: 4px;
+  background-color: #AEC71E;
+}
+.page-head{
+  width: 1200px;
+  height: 70px;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  background-color: #80808024;
+}
+.menu1{
+  width: 1200px;
+  height: 58px;
+}
+.menu2{
+  width: 500px;
+  height: 70px;
+  float: right;
+  margin-top: -65px;
+  margin-right: 130px;
+}
+.menu2 ul{
+  list-style-type: none;
+}
+.menu2 ul li a{
+  text-decoration: none;
+  float: right;
+  text-decoration: none;
+  float: right;
+  font-size: 13px;
+  padding-left: 24px;
+  padding-right: 23px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-top: 10px;
+}
+.menu1 img{
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.builder {
+  width: 1196px;
+   height: 70px;
+   background: beige;
+   border: 2px solid #00000014; 
+   font-size: 12px;
+   text-align: center;
+}
+.builder h1{
+  margin: 25px;
+}
+.menu2 li:hover a{
+  background-color: #AEC71E;
+  color: white;
+
+}
+.noidung{
+  width: 1200px;
+  height: 600px;
+  /* background-color:#80808017; */
+}
+.div1{
+  width: 400px;
+  height: 471px;
+  background-color: #d8d3c617;
+  margin-left: 20px;
+  margin-top: 13px;
+  
+}
+.sub-div1{
+  width: 375px;
+  height: 93px;
+  background-color: rgb(58, 58, 58);
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.sub-div1 h1{
+  color: white;
+}
+.sub-div1 p{
+  color: white;
+  font-size: 20px;
+}
+.bon1{
+  float: left;
+  margin-right: 50px;
+}
+.bon1 ul li{
+  padding-bottom: 10px;
+}
+
+ul.unstyled{
+ 
+  list-style: none;
+}
+.div2{
+    width: 741px;
+    height: 423px;
+    float: right;
+    margin-top: -472px;
+    margin-right: 20px;
+}
+.div2 img
+{
+  width: 100%;
+  height: 471px;
+  
+}
+.noidung2{
+  margin-top: -50px;
+  width: 1200px;
+  height: 200px;
+  margin-right: 20px;
+  background-color: #dedade26;
+
+}
+.hinh1{
+  width: 350px;
+    height: 164px;
+    margin: 25px;
+    float: left;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 15px;
+    background-color: #8080801f;
+}
+.hinh1 h4{
+  padding-top: 10px;
+}
+.hinh1 p{
+  padding-top: 10px;
+  font-size: 13px;
+  padding: 10px;
+}
+.recent{
+    width: 1200px;
+    height: 50px;
+    margin: 20px;
+}
+.recent h3{
+  font-size: 30px;
+    font-family: serif;
+}
+/* .noidung3{
+  width: 1200px;
+  height: 400px;
+  background-color: #8080800f;
+}
+.hinh2 img{
+  width: 250px;
+  height: 250px;
+} */
+/* vùng 4 cái hình nha bạn */
+.content1{
+	width: 250px;
+	height: 250px;
+  position: relative;
+  margin-left: 17px;
+  float: left;
+ padding-right: 33px;
+  /* background-color: #8080801c; */
+
+}
+.work{
+  width: 100%;
+  height: 20%;
+  background-color: #3c363614;
+  margin-top: -5px;
+  text-align: center;
+  padding-top: 10px;
+}
+.work a{
+  text-decoration: none;
+ color: #AEC71E;
+}
+a:hover{
+ color: black;
+}
+
+.content1 img{
+	width: 100%;
+	height: 70%;
+}
+.xam{
+	width: 88%;
+	height: 70%;
+	position: absolute;
+	top: 0;
+	 background-color:#77889933; 
+  opacity: 0;
+}
+.xam:hover {
+	opacity: 1;
+}
+.nganngan{
+	border: 2px solid white;
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    top: 26%;
+    left: 30%;
+    transition: 1s;
+    transform: scale(0);
+}
+.content:hover .nganngan{
+  transform: scale(1);
+  background-color: yellowgreen;
+}
+.nganngan a{
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  
+}
+/* vùng row */
+.row{
+  width: 1200px;
+  height: 670px;
+
+}
+.span6{
+  width: 550px;
+  height: 550px;
+}
+.alignleft{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.span6 p{
+  padding-left: 30px;
+    margin-top: 30px;
+    padding-right: 10px;
+}
+.doan3{
+  margin-right: 40px;
+}
+.button{
+  width: 200px;
+  height: 30px;
+  margin-left: 20px;
+  border-radius: 4px;
+  margin-top: 30px;
+  border: 1px solid gray;
+}
+.button:hover{
+  background-color:#8080802e;
+}
+.doanvan3{
+  width: 510px;
+  height: 200px;
+  background-color: #80808029;
+  margin-left: 20px;
+}
+.vanban p{
+  margin: 30px;
+ padding-top:20px;
+}
+ul{
+  list-style: none;
+}
+.span{
+  width: 550px;
+  height: 600px;
+  background-color: #80808000;
+  float: right;
+  margin-top: -549px;
+  margin-right: 25px;
+}
+  .span img{
+    margin-top: 30px;
+    height: 395px;
+  }
+  .noidunga{
+    width: 550px;
+    height: 200px;
+    background-color: #80808024;
+    margin-top: -5px;
+  }
+
